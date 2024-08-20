@@ -630,7 +630,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .trainer {
   position: relative;
   background: rgba(0, 0, 0, 0.05);
-  margin-top: 30px;
+  margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
   .trainer {
