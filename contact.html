@@ -82,7 +82,51 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html">ADR Casal da Misarela<span>.</span></a></div>
+						<div id="fh5co-logo"><img id="img"  src="images/logo2.png" alt=""></div>
+						<style>
+							/* Default size for larger screens */
+							#fh5co-logo img {
+							  width: 400px;
+							  height: auto;
+							}
+						  
+							/* Medium screens (tablets, small desktops) */
+							@media (max-width: 768px) {
+							  #fh5co-logo img {
+								width: 400px;
+							  }
+							}
+							
+							/* Small screens (phones, smaller tablets) */
+							@media (max-width: 480px) {
+							  #fh5co-logo img  {
+								width: 300px;
+							  }
+							}
+							@media (max-width: 480px) {
+								.fh5co-nav-toggle i  {
+									position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 2px;
+  color: #252525;
+  font: bold 14px/.4 Helvetica;
+  text-transform: uppercase;
+  text-indent: -55px;
+  background: #252525;
+  transition: all .2s ease-out;
+  margin-top: 45px;
+							  }
+							}
+							
+						  
+							/* Very small screens */
+							@media (max-width: 320px) {
+							  #fh5co-logo img {
+								width: 100px;
+							  }
+							}
+						  </style>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
@@ -90,10 +134,7 @@
 							<li><a href="history.html">História</a></li>
 							<li><a href="about.html">Técnicos</a></li>
 							
-							<li class="has-dropdown">
-								<a href="blog.html">Blog</a>
-								
-							</li>
+							
 							<li class="active"><a href="contact.html">Contactos</a></li>
 							<!-- <li class="btn-cta"><a href="#"><span>Login</span></a></li> -->
 						</ul>

@@ -67,16 +67,59 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html">ADR Casal da Misarela<span>.</span></a></div>
+					 
+						<div id="fh5co-logo"><img id="img"  src="images/logo2.png" alt=""></div>
+						<style>
+							/* Default size for larger screens */
+							#fh5co-logo img {
+							  width: 400px;
+							  height: auto;
+							}
+						  
+							/* Medium screens (tablets, small desktops) */
+							@media (max-width: 768px) {
+							  #fh5co-logo img {
+								width: 400px;
+							  }
+							}
+							
+							/* Small screens (phones, smaller tablets) */
+							@media (max-width: 480px) {
+							  #fh5co-logo img  {
+								width: 300px;
+							  }
+							}
+							@media (max-width: 480px) {
+								.fh5co-nav-toggle i  {
+									position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 2px;
+  color: #252525;
+  font: bold 14px/.4 Helvetica;
+  text-transform: uppercase;
+  text-indent: -55px;
+  background: #252525;
+  transition: all .2s ease-out;
+  margin-top: 45px;
+							  }
+							}
+							
+						  
+							/* Very small screens */
+							@media (max-width: 320px) {
+							  #fh5co-logo img {
+								width: 100px;
+							  }
+							}
+						  </style>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="history.html">História</a></li>
 							<li><a href="about.html">Técnicos</a></li>
-							<li>
-								<a href="blog.html">Blog</a>
-							</li>
+							
 							<li><a href="contact.html">Contactos</a></li>
 						</ul>
 					</div>
@@ -94,7 +137,7 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Bem vindo(a)</h1>
-							<h2>Site Oficial da Secção de Judo da ADR Casal da Misarela</h2>
+							<h2  >Site Oficial da Secção de Judo da ADR Casal da Misarela</h2>
 						</div>
 					</div>
 				</div>
@@ -104,20 +147,35 @@
 
 	<div id="fh5co-services" class="fh5co-bg-section">
 		<div class="container" >
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Horários</h2>
+					
+				</div>
+			</div>
 			<div class="row2" >
 				
-				<div class="col-md-4 text-center animate-box">
-					<div class="services">
-						<span><img class="img-responsive" src="images/judo (1).png" alt=""></span>
-						<h3>Dos 6 aos 11 anos </h3>
-						<p>Terças e quintas das 19h30 às 20h15</p>
-					</div>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<div class="services">
-						<span><img class="img-responsive" src="images/judo (1).png" alt=""></span>
-						<h3>Dos 12 e + anos</h3>
-						<p>Terças e quintas das 20h15 às 21h15</p>
+				<div class="table-container">
+					<table>
+						<thead>
+							<tr>
+								<th>Classe/ Idades</th>
+								<th>Dias</th>
+								<th>Hora</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>4 e 5 anos</td>
+								<td>Terças</td>
+								<td>17h45-18h30</td>
+							</tr>
+							
+							
+						</tbody>
+					</table>
+					<div class="note">
+						Os novos alunos, podem experimentar uma aula antes de se inscreverem. Gratuitamente!
 					</div>
 				</div>
 			</div>
@@ -209,7 +267,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 animate-box">
 					<div class="trainer">
-						<a href="about.html"><img class="img-responsive2" src="images/trainer-1.jpg" alt="trainer"></a>
+						<a href="about.html"><img class="img-responsive2" src="images/helser.jpg" alt="trainer"></a>
 						<div class="title">
 							<h3><a href="about.html">Hélder Gaspar</a></h3>
 							
@@ -218,17 +276,18 @@
 				</div>
 				<div class="col-md-4 col-sm-4 animate-box">
 					<div class="trainer">
-						<a href="about.html"><img class="img-responsive2" src="images/trainer-1.jpg" alt="trainer"></a>
+						<a href="about.html"><img class="img-responsive2" src="images/Diogo Almeida.jpg" alt="trainer"></a>
 						<div class="title">
-							<h3><a href="about.html">Rodrigo Carvalho</a></h3>
+							<h3><a href="about.html">Diogo Almeida</a></h3>
 							
 						</div>
 					
 					</div>
 				</div>
+				
 
 			</div>
-			<div class="row2">
+			<div class="row">
 				<div class="col-md-4 col-sm-4 animate-box">
 					<div class="trainer">
 						<a href="about.html"><img class="img-responsive2" src="images/trainer-1.jpg" alt="trainer"></a>
@@ -243,12 +302,23 @@
 					<div class="trainer">
 						<a href="about.html"><img class="img-responsive2" src="images/trainer-1.jpg" alt="trainer"></a>
 						<div class="title">
-							<h3><a href="about.html">Diogo Almeida</a></h3>
+							<h3><a href="about.html">Rodrigo Carvalho</a></h3>
 							
 						</div>
 					
 					</div>
 				</div>
+				<div class="col-md-4 col-sm-4 animate-box">
+					<div class="trainer">
+						<a href="about.html"><img class="img-responsive2" src="images/trainer-1.jpg" alt="trainer"></a>
+						<div class="title">
+							<h3><a href="about.html">Sérgio Ramos</a></h3>
+							
+						</div>
+					
+					</div>
+				</div>
+			
 			</div>
 					
 					
@@ -258,28 +328,7 @@
 	</div>
 	
 
-	<footer id="fh5co-footer" class="fh5co-bg" style="background-image: url(images/img_bg_1.jpg);" role="contentinfo">
-		<div class="overlay"></div>
-		<div class="container">
-			
-
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2024 ADR Casal da Misarela All Rights Reserved.</small> 
-					</p>
-					<p>
-						<ul class="fh5co-social-icons">
-						
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							
-						</ul>
-					</p>
-				</div>
-			</div>
-
-		</div>
-	</footer>
+	
 	</div>
 
 	<div class="gototop js-top">
