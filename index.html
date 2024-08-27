@@ -69,16 +69,7 @@
 							  #fh5co-logo img {
 								width: 400px;
 							  }
-							}
-							
-							/* Small screens (phones, smaller tablets) */
-							@media (max-width: 480px) {
-							  #fh5co-logo img  {
-								width: 300px;
-							  }
-							}
-							@media (max-width: 480px) {
-								.fh5co-nav-toggle i  {
+							  .fh5co-nav-toggle i  {
 									position: relative;
   display: inline-block;
   width: 25px;
@@ -89,15 +80,54 @@
   text-indent: -55px;
   background: #252525;
   transition: all .2s ease-out;
-  margin-top: 45px;
+  position: absolute;
+  top: -40px;
 							  }
 							}
 							
+							/* Small screens (phones, smaller tablets) */
+							@media (max-width: 480px) {
+							  #fh5co-logo img  {
+								width: 300px;
+							  }
+
+							  .fh5co-nav-toggle i  {
+									position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 2px;
+  color: #252525;
+  font: bold 14px/.4 Helvetica;
+  text-transform: uppercase;
+  text-indent: -55px;
+  background: #252525;
+  transition: all .2s ease-out;
+  position: absolute;
+  top: -55px;
+							  }
+							}
+						
+							
+							
 						  
 							/* Very small screens */
-							@media (max-width: 320px) {
+							@media (max-width: 370px) {
 							  #fh5co-logo img {
-								width: 100px;
+								width: 250px;
+							  }
+							  .fh5co-nav-toggle i  {
+									position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 2px;
+  color: #252525;
+  font: bold 14px/.4 Helvetica;
+  text-transform: uppercase;
+  text-indent: -55px;
+  background: #252525;
+  transition: all .2s ease-out;
+  position: absolute;
+  top: -65px;
 							  }
 							}
 						  </style>
@@ -127,7 +157,7 @@
 							<h1>Bem vindo(a)</h1>
 							<h2  >Site Oficial da Secção de Judo da ADR Casal da Misarela</h2>
 							<span>
-								<a class="btn btn-primary" href="images/infos.pdf" download="ADRCasaldaMisarela - Informações / Inscrições.pdf">O que precisas para treinar Judo</a>
+								<a class="btn btn-primary" href="images/infos.pdf" download="ADRCasaldaMisarela - Informações / Inscrições.pdf">Informações</a>
 								<div class="icons">
 									<a href="https://www.facebook.com/groups/judoclubedomondego/?ref=share_group_link&rdid=UZnoobWENATIeuPm&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2FeXWS66JzR34TVHD5%2F"> <img   style="width: 40px; margin-top: 20px;margin-right: 10px; " src="images/facebook.png" alt=""></a>
 								<a href="https://www.instagram.com/judoclubemondego/"><img style="width: 40px; margin-top: 20px;" src="images/instagram.png" alt=""></a>
